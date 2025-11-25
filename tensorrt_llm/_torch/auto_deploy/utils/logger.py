@@ -3,7 +3,7 @@ from ....logger import Logger
 
 class ADLogger(Logger):
     ENV_VARIABLE = "AUTO_DEPLOY_LOG_LEVEL"
-    PREFIX = "TRT-LLM AUTO-DEPLOY"
+    PREFIX = "HUAAN AUTO-DEPLOY"
     DEFAULT_LEVEL = "info"
 
 

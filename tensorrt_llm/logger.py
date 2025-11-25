@@ -36,7 +36,7 @@ class Singleton(type):
 
 class Logger(metaclass=Singleton):
     ENV_VARIABLE = "TLLM_LOG_LEVEL"
-    PREFIX = "TRT-LLM"
+    PREFIX = "HUAAN"
     DEFAULT_LEVEL = "error"
 
     INTERNAL_ERROR = "[F]"
